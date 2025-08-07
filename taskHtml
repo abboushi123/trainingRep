@@ -1,38 +1,77 @@
-<div class="testimonials">
-  <div class="testimonial-card dark">
-    <p>I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from where I started.<br><strong>Highly recommended!</strong></p>
-    <div class="author">
-      <img src="avatar1.jpg" alt="Artem Jones">
-      <p><strong>Artem Jones</strong><br>Junior Frontend Developer</p>
-    </div>
-  </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>What People Are Saying About roadmap.sh</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS -->
+</head>
+<body>
 
-  <div class="testimonial-card light">
-    <p>Since starting my career in 2021, I have only followed one resource, roadmap.sh. It truly helped me go from 0 to having a job and changing the financial trajectory of my family.</p>
-    <div class="author">
-      <img src="avatar2.jpg" alt="Artem Jones">
-      <p><strong>Artem Jones</strong><br>Junior Frontend Developer</p>
-    </div>
-  </div>
+  <header class="page-header">
+    <h1>What People Are Saying About roadmap.sh</h1>
+    <p class="page-subtitle">
+      Real stories from developers who have transformed their careers using roadmap.sh. Read how this platform is making a difference across the tech world.
+    </p>
+  </header>
 
-  <div class="testimonial-card profile">
-    <img src="jackie.jpg" alt="Jackie Mackle">
-    <div class="text">
-      <p class="stars">★★★★★</p>
-      <h3>Jackie Mackle</h3>
-      <p class="title">Engineering Manager</p>
-      <p>I find myself recommending roadmap.sh to all the internees or junior developers. It’s a great way to skill up and grow in your career.</p>
-    </div>
-  </div>
+  <section class="testimonials">
+    <!-- Testimonial 1 -->
+    <article class="testimonial testimonial--dark">
+      <p class="testimonial__text">
+        I have been solving all the project ideas on <strong>roadmap.sh</strong> and I am surprised how far I have come from where I started.<br>
+        <strong>Highly recommended!</strong>
+      </p>
+      <div class="testimonial__author">
+        <img src="avatar1.jpg" alt="Photo of Artem Jones" class="testimonial__avatar">
+        <div>
+          <h4 class="testimonial__name">Artem Jones</h4>
+          <p class="testimonial__role">Junior Frontend Developer</p>
+        </div>
+      </div>
+    </article>
 
-  <div class="testimonial-card slider">
-    <p>roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repo with three images. It’s amazing to see how much impact it has had on millions of lives since then.</p>
-    <div class="avatars">
-      <span>&lt;</span>
-      <img src="avatar1.jpg" alt="Artem Jones">
-      <img src="avatar2.jpg" alt="Artem Jones">
-      <span>&gt;</span>
-    </div>
-    <p><strong>Artem Jones</strong></p>
-  </div>
-</div>
+    <!-- Testimonial 2 -->
+    <article class="testimonial testimonial--light">
+      <p class="testimonial__text">
+        Since starting my career in 2021, I have only followed one resource, <strong>roadmap.sh</strong>. It helped me go from 0 to a job and changed my family's financial trajectory.
+      </p>
+      <div class="testimonial__author">
+        <img src="avatar2.jpg" alt="Photo of Artem Jones" class="testimonial__avatar">
+        <div>
+          <h4 class="testimonial__name">Artem Jones</h4>
+          <p class="testimonial__role">Junior Frontend Developer</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Testimonial 3 -->
+    <article class="testimonial testimonial--profile">
+      <img src="jackie.jpg" alt="Photo of Jackie Mackle" class="testimonial__photo">
+      <div class="testimonial__content">
+        <p class="testimonial__stars">★★★★★</p>
+        <h4 class="testimonial__name">Jackie Mackle</h4>
+        <p class="testimonial__role">Engineering Manager</p>
+        <p class="testimonial__text">
+          I find myself recommending <strong>roadmap.sh</strong> to all the internees and junior developers. It’s a great way to grow your career.
+        </p>
+      </div>
+    </article>
+
+    <!-- Testimonial 4 -->
+    <article class="testimonial testimonial--slider">
+      <p class="testimonial__text">
+        <strong>roadmap.sh</strong> is an incredible resource. I discovered it during my university days in 2018. Back then, it was just a single repo with three images. It’s amazing how much it has grown since then.
+      </p>
+      <div class="testimonial__carousel">
+        <button class="testimonial__nav" aria-label="Previous">&lt;</button>
+        <img src="avatar1.jpg" alt="Artem Jones" class="testimonial__carousel-img">
+        <img src="avatar2.jpg" alt="Artem Jones" class="testimonial__carousel-img">
+        <button class="testimonial__nav" aria-label="Next">&gt;</button>
+      </div>
+      <p class="testimonial__name">Artem Jones</p>
+    </article>
+  </section>
+
+</body>
+</html>
