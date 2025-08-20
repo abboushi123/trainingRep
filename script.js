@@ -28,7 +28,6 @@ async function fetchRepo() {
       return;
     }
 
-    // اختيار عشوائي
     const randomRepo = data.items[Math.floor(Math.random() * data.items.length)];
 
     statusDiv.innerHTML = "";
@@ -40,14 +39,12 @@ async function fetchRepo() {
       <p>🐞 Issues: ${randomRepo.open_issues_count}</p>
     `;
 
-    refreshBtn.style.display = "inline-block"; // يظهر زر التحديث
+    refreshBtn.style.display = "inline-block";
   } catch (error) {
     statusDiv.innerHTML = `<p class="error">❌ ${error.message}</p>`;
   }
 }
 
-// زر Fetch
 fetchBtn.addEventListener("click", fetchRepo);
 
-// زر Refresh
 refreshBtn.addEventListener("click", fetchRepo);
