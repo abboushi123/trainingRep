@@ -1,4 +1,3 @@
-/* إعداد عام */
 body {
   font-family: Arial, sans-serif;
   background: #eef2f3;
@@ -10,7 +9,6 @@ body {
   min-height: 100vh;
 }
 
-/* الصندوق الرئيسي */
 .container {
   background: white;
   padding: 25px;
@@ -20,13 +18,11 @@ body {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* العنوان */
 h1 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* القائمة */
 select {
   padding: 10px;
   font-size: 16px;
@@ -36,7 +32,6 @@ select {
   border: 1px solid #ccc;
 }
 
-/* الأزرار */
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -64,7 +59,6 @@ button {
 }
 #refreshBtn:hover { background: #1e7e34; }
 
-/* حالة العرض */
 #status {
   margin: 10px 0;
   font-weight: bold;
@@ -73,7 +67,6 @@ button {
 .loading { color: blue; }
 .error { color: red; }
 
-/* بطاقة المستودع */
 #repoCard {
   margin-top: 10px;
   padding: 15px;
@@ -96,7 +89,6 @@ button {
   text-decoration: underline;
 }
 
-/* الفوتر */
 footer {
   margin-top: 20px;
   text-align: center;
