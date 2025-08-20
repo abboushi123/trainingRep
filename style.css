@@ -1,0 +1,105 @@
+/* إعداد عام */
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f3;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* الصندوق الرئيسي */
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* العنوان */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* القائمة */
+select {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* الأزرار */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#fetchBtn {
+  background: #007bff;
+  color: white;
+}
+#fetchBtn:hover { background: #0056b3; }
+
+#refreshBtn {
+  background: #28a745;
+  color: white;
+}
+#refreshBtn:hover { background: #1e7e34; }
+
+/* حالة العرض */
+#status {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.loading { color: blue; }
+.error { color: red; }
+
+/* بطاقة المستودع */
+#repoCard {
+  margin-top: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  text-align: left;
+}
+
+#repoCard h3 {
+  margin: 0 0 10px 0;
+}
+
+#repoCard a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+#repoCard a:hover {
+  text-decoration: underline;
+}
+
+/* الفوتر */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
